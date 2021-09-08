@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
 import Layout from '../components/Layout'
 
 function GetHead() {
@@ -25,7 +23,7 @@ function GetBody() {
 
 export default function Page() {
   return (
-    <Layout>
+    <Layout home={true}>
       <GetHead></GetHead>
       <GetBody></GetBody>
     </Layout>

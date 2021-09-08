@@ -27,7 +27,7 @@
 .searchForm {
   position: relative;
   transform: translate(-50%, 0);
-  background: none;
+  background: white;
   height: 18px;
   border-radius: 40px;
 }
@@ -42,20 +42,20 @@
   float: left;
   /* width: 14px;
   height: 14px; */
-  width: 64px;
-  height: 64px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   background: none;
   margin-right: 10px;
 }
 
-.searchBtnImage {
+/* .searchBtnImage {
   width: 64px;
   height: 64px;
-}
+} */
 
 #searchTxt {
-  /* border:none;
+  border:none;
   background: none;
   outline: none;
   float: right;
@@ -64,5 +64,5 @@
   font-size: 14px;
   transition: 0.4s;
   line-height: 0px;
-  width: 0px; */
+  width: 0px;
 }

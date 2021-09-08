@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
+// import Image from 'next/image'
 import Link from 'next/link'
+import styles from './layout.module.css'
+// import utilStyles from '../styles/utils.module.css'
 
 
 export default function Layout({ children, home }) {
@@ -32,18 +32,20 @@ export default function Layout({ children, home }) {
           </Link>
         </nav>
         
-        <div className={styles.search_form}>
-          <div role="button" id={styles.searchBtn} title="search-button">
-            <Image
+        <div className={styles.searchForm}>
+          <button id={styles.searchBtn} title="search-button">
+            {/* <Image
               priority
               src="/images/10.jpg"
               className={styles.searchBtnImage}
               height={14}
               width={14}
               alt={"Search button"}
-            />
+            /> */}
             {/* Image made by itim2101 */}
-          </div>
+            <div>O</div>
+            <div>/</div>
+          </button>
           <input id={styles.searchTxt} type="text" placeholder="Pesquise aqui"></input>
         </div>
       </header>

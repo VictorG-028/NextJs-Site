@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
+import Layout from '../components/Layout'
+
 
 
 function GetHead() {
@@ -23,9 +23,9 @@ function GetBody() {
 
 export default function FilmesPage() {
   return (
-    <>
+    <Layout home={false}>
       <GetHead></GetHead>
       <GetBody></GetBody>
-    </>
+    </Layout>
   );
 }
