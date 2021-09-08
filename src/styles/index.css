@@ -1,0 +1,145 @@
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .logo a {
+    margin-left: 5px;
+    margin-right: 40px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav {
+    margin-right: 140px;
+}
+
+header nav a {
+    color: #aaaaaa;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #ffffff;
+}
+
+header .search-form {
+    position: relative;
+    transform: translate(-50%, 0);
+    background: none;
+    height: 18px;
+    border-radius: 40px;
+}
+
+header .search-form:hover > #search-txt {
+    width: 240px;
+    padding: 0.6px;
+}
+
+header #search-btn {
+    color: red;
+    float: left;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: none;
+    margin-right: 10px;
+}
+
+header #search-txt {
+    border:none;
+    background: none;
+    outline: none;
+    float: right;
+    padding: 0%;
+    color: white;
+    font-size: 14px;
+    transition: 0.4s;
+    line-height: 0px;
+    width: 0px;
+}
+
+
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),
+    url('../public/images/2Caqkb1m9qL6hJu7ftvE7LbRYJt.jpg');
+
+    height: 100vh;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo {
+    margin-top: 15%;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color:  rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all; 
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.carrosel-filmes h2 {
+    margin-top: 3%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', Arial, sans-serif; 
+}
+
+.item:hover {
+    transition: all 300ms ease-in-out;
+    transform: scale(0.8);
+    z-index: 1;
+}

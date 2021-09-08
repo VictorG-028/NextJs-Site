@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo a {
+  margin-left: 40px;
+  color: var(--red);
+  font-family: 'Arial Black', Times;
+  font-size: 40px;
+}
+
+.header nav {
+  margin: 0 140px 0 40px;
+}
+
+.header nav a {
+  color: #aaaaaa;
+  margin-right: 10px;
+}
+
+.header nav a:hover {
+  color: #ffffff;
+}
+
+.searchForm {
+  position: relative;
+  transform: translate(-50%, 0);
+  background: none;
+  height: 18px;
+  border-radius: 40px;
+}
+
+.searchForm:hover > #searchTxt {
+  width: 240px;
+  padding: 0.6px;
+}
+
+#searchBtn {
+  color: red;
+  float: left;
+  /* width: 14px;
+  height: 14px; */
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: none;
+  margin-right: 10px;
+}
+
+.searchBtnImage {
+  width: 64px;
+  height: 64px;
+}
+
+#searchTxt {
+  /* border:none;
+  background: none;
+  outline: none;
+  float: right;
+  padding: 0%;
+  color: white;
+  font-size: 14px;
+  transition: 0.4s;
+  line-height: 0px;
+  width: 0px; */
+}
