@@ -28,8 +28,12 @@
   position: relative;
   transform: translate(-50%, 0);
   background: white;
-  height: 18px;
+  height: 28px;
   border-radius: 40px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .searchForm:hover > #searchTxt {
@@ -38,14 +42,12 @@
 }
 
 #searchBtn {
-  color: red;
   float: left;
-  /* width: 14px;
-  height: 14px; */
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: none;
+  width: 28px;
+  height: 28px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background: var(--red);
   margin-right: 10px;
 }
 
@@ -60,9 +62,9 @@
   outline: none;
   float: right;
   padding: 0%;
-  color: white;
+  color: var(--black);
   font-size: 14px;
   transition: 0.4s;
-  line-height: 0px;
-  width: 0px;
+  /* line-height: 0px; */
+  width: 100px;
 }

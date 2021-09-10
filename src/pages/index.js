@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/index.module.css'
 import Layout from '../components/Layout'
 import Carousel from '../components/Carousel'
@@ -29,7 +28,7 @@ function GetBody() {
 
 
 export default function Page() {
-	const images = ['/images/age/10.jpg', '/images/cover/m1.jpg', 
+	const images = ['/images/cover/m1.jpg', 
 	'/images/cover/m2.jpg', , '/images/cover/m3.jpg', '/images/cover/m4.jpg', 
 	'/images/cover/m5.jpg', '/images/cover/m6.jpg', '/images/cover/m7.jpg', 
 	'/images/cover/m8.jpg', '/images/cover/m9.jpg', '/images/cover/m10.jpg']

@@ -28,7 +28,7 @@ export default class Carousel extends Component {
                     alt="Cover image" 
                     onClick={() => this.mountAnimePopup(image)}
                     width={240}
-                    height={144}
+                    height={360}
                   ></Image>
                 </div>
               );
