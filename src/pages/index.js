@@ -29,10 +29,10 @@ function GetBody() {
 
 
 export default function Page() {
-	const images = ['/images/10.jpg', '/images/m1.jpg', 
-	'/images/m2.jpg', , '/images/m3.jpg', '/images/m4.jpg', 
-	'/images/m5.jpg', '/images/m6.jpg', '/images/m7.jpg', 
-	'/images/m8.jpg', '/images/m9.jpg', '/images/m10.jpg']
+	const images = ['/images/age/10.jpg', '/images/cover/m1.jpg', 
+	'/images/cover/m2.jpg', , '/images/cover/m3.jpg', '/images/cover/m4.jpg', 
+	'/images/cover/m5.jpg', '/images/cover/m6.jpg', '/images/cover/m7.jpg', 
+	'/images/cover/m8.jpg', '/images/cover/m9.jpg', '/images/cover/m10.jpg']
 	
 	return (
 		<Layout home={true}>
