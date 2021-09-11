@@ -13,6 +13,10 @@
 .carouselOuter {
     width: 100%;
     overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 /* Site com tutorial de como fazer o caroussel "draggable": */
@@ -42,4 +46,38 @@
     width: 100%;
     display: block;
     cursor: pointer;
+}
+
+.rightArrow, .leftArrow {
+    background-color: var(--red);
+
+    width: 3rem;
+    height: 3rem;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    text-align: center;
+
+    z-index: 1;
+}
+
+.rightArrow:hover, .leftArrow:hover {
+    background-color: var(--redDarker);
+    color: var(--black);
+}
+
+.centerTxt {
+    margin: 0.5rem 0 0;
+}
+
+.leftArrow {
+    position: absolute;
+    left: 10%;
+}
+
+.rightArrow {
+    position: absolute;
+    left: 90%;
 }
